@@ -10,6 +10,18 @@ This version implements a second-order in time finite difference method known as
 
 Each time-iteration, the program evolves the wave function in the position basis. Then we apply a Fourier transform the wave function to evolve the non-linear term of the Hamiltonian in the momentum basis/phase-space. The waveform is then reverse Fourier transformed back into position space in order to repeat this evolution of the waveform.
 
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="all" href="normalize.css">
+    <link rel="stylesheet" media="all" href="core.css">
+    <link rel="stylesheet" media="all" href="style.css">
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body data-document>&nbsp;</body>
+</html>
+
 \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
