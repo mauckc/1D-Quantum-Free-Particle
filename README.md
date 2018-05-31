@@ -8,9 +8,12 @@ This version implements a second-order in time finite difference method known as
 
 Each time-iteration, the program evolves the wave function in the position basis. Then we apply a Fourier transform the wave function to evolve the non-linear term of the Hamiltonian in the momentum basis/phase-space. The waveform is then reverse Fourier transformed back into position space in order to repeat this evolution of the waveform.
 
-i*(dpsi/dx) = - (1/2)*( dpsi/dx)^2 + U(x)* psi(x)
-//  where psi(x)= psireal(x) + i*psiimag(x)
+i * ( dpsi/dx ) = - ( 1/2 ) * ( dpsi/dx )^2 + U(x) * psi(x)
+where psi(x)= psireal(x) + i * psiimag(x)
 
+<p align="center">
+  <img src="https://github.com/mauckc/headpose/blob/master/media/elon-sample.gif"/>
+</p>
 
 ## Pre-requisites:
 
@@ -23,7 +26,49 @@ Folder named slices for storing output data
 $ cd your/destination/
 $ git clone https://...
 
+<p align="center">
+  <img src="https://github.com/mauckc/headpose/blob/master/media/obama-sample.gif"/>
+</p>
 
 ## Compiling:
 
 You must link this code with the fftw3 library. On Unix systems, link with -lfftw3 -lm.
+
+
+## About headpose
+
+---
+
+### Dependencies
+You need to have Python 2.6+ as a minimum and:
+
+* [NumPy](http://numpy.scipy.org/)
+* [OpenCV 3](http://opencv.org/) Prefer OpenCV 3.4+
+* [Dlib](http://dlib.net/)
+* [Imutils](https://github.com/jrosebr1/imutils)
+
+<p align="center">
+  <img src="https://github.com/mauckc/headpose/blob/master/media/elon-sample.gif"/>
+</p>
+
+### Structure
+
+*python/*  the code.
+
+*models/*  contains
+
+*media/*  contains images and video. 
+
+### Installation
+
+<p align="center">
+  <img src="https://github.com/mauckc/headpose/blob/master/media/obama-sample.gif"/>
+</p>
+
+### License
+
+All code in this project is provided as open source under the MIT license
+
+
+---
+-Ross Mauck
