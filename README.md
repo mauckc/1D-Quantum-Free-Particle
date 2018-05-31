@@ -1,6 +1,6 @@
-"# Quantum-Free-Particle" 
+# Quantum-Free-Particle
 
-Background:
+## Background:
 
 This program numerically integrates the Schrodinger equation on finite complex scalar fields for simulating interactions of quantum particles under varied observation.
 
@@ -12,18 +12,18 @@ i*(dpsi/dx) = - (1/2)*( dpsi/dx)^2 + U(x)* psi(x)
 //  where psi(x)= psireal(x) + i*psiimag(x)
 
 
-Pre-requisites:
+## Pre-requisites:
 
 fftw3 library
 Mathematica for using "ListPlotter.nb" file for plotting C++ programs output
 Folder named slices for storing output data
 
 
-Installing:
+## Installing:
 $ cd your/destination/
 $ git clone https://...
 
 
-Compiling:
+## Compiling:
 
 You must link this code with the fftw3 library. On Unix systems, link with -lfftw3 -lm.
