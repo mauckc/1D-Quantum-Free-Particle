@@ -13,7 +13,14 @@ Each time-iteration, the program evolves the wave function in the position basis
   <img src="https://latex.codecogs.com/gif.latex?%5Cbg_black%20i%20%28%5Cfrac%7Bd%5Cpsi%7D%7Bdx%7D%29%20%3D%20-%5Cfrac%7B1%7D%7B2%7D%20%28%5Cfrac%7Bd%5Cpsi%7D%7Bdx%7D%29%5E%7B2%7D%20&plus;%20U%28x%29%5Cpsi%28x%29"/>
 </p>
 
-where psi(x)= psireal(x) + i * psiimag(x)
+
+
+where:
+<img src="https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5Cpsi%28x%29%20%3D%20%5Cpsi_%7B%5Cmathbb%7BR%7D%7D%20%28%20x%20%29%20&plus;%20i%20%5Cast%20%5Cpsi_%7B%5Cmathbb%7BI%7D%7D%28x%29"/>
+</p>
+
+
+psi(x)= psireal(x) + i * psiimag(x)
 
 <p align="center">
   <img src="https://github.com/mauckc/1D-Quantum-Free-Particle/blob/master/media/sample1.gif"/>
