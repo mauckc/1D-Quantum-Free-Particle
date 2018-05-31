@@ -11,6 +11,7 @@ This version implements a second-order in time finite difference method known as
 Each time-iteration, the program evolves the wave function in the position basis. Then we apply a Fourier transform the wave function to evolve the non-linear term of the Hamiltonian in the momentum basis/phase-space. The waveform is then reverse Fourier transformed back into position space in order to repeat this evolution of the waveform.
 
 \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 i * ( dpsi/dx ) = - ( 1/2 ) * ( dpsi/dx )^2 + U(x) * psi(x)
 where psi(x)= psireal(x) + i * psiimag(x)
