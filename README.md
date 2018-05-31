@@ -1,6 +1,8 @@
 # Quantum-Free-Particle
 
-## Background:
+## About 1D Quantum Free Particle
+
+---
 
 This program numerically integrates the Schrodinger equation on finite complex scalar fields for simulating interactions of quantum particles under varied observation.
 
@@ -12,7 +14,7 @@ i * ( dpsi/dx ) = - ( 1/2 ) * ( dpsi/dx )^2 + U(x) * psi(x)
 where psi(x)= psireal(x) + i * psiimag(x)
 
 <p align="center">
-  <img src="https://github.com/mauckc/headpose/blob/master/media/elon-sample.gif"/>
+  <img src="https://github.com/mauckc/1D-Quantum-Free-Particle/blob/master/media/sample1.gif"/>
 </p>
 
 ## Pre-requisites:
@@ -21,13 +23,20 @@ fftw3 library
 Mathematica for using "ListPlotter.nb" file for plotting C++ programs output
 Folder named slices for storing output data
 
+### Structure
+
+*python/*  the code.
+
+*models/*  contains
+
+*media/*  contains images and video.
 
 ## Installing:
 $ cd your/destination/
 $ git clone https://...
 
 <p align="center">
-  <img src="https://github.com/mauckc/headpose/blob/master/media/obama-sample.gif"/>
+  <img src="https://github.com/mauckc/headpose/blob/master/media/sample2.gif"/>
 </p>
 
 ## Compiling:
@@ -35,35 +44,16 @@ $ git clone https://...
 You must link this code with the fftw3 library. On Unix systems, link with -lfftw3 -lm.
 
 
-## About headpose
-
----
-
 ### Dependencies
-You need to have Python 2.6+ as a minimum and:
+You need to have C++ and the following:
 
-* [NumPy](http://numpy.scipy.org/)
-* [OpenCV 3](http://opencv.org/) Prefer OpenCV 3.4+
-* [Dlib](http://dlib.net/)
-* [Imutils](https://github.com/jrosebr1/imutils)
+* [gcc GNU](https://gcc.gnu.org)
+* [FFTw](http://fftw.org/)
 
 <p align="center">
-  <img src="https://github.com/mauckc/headpose/blob/master/media/elon-sample.gif"/>
+  <img src="https://github.com/mauckc/1D-Quantum-Free-Particle/blob/master/media/sample3.gif"/>
 </p>
 
-### Structure
-
-*python/*  the code.
-
-*models/*  contains
-
-*media/*  contains images and video. 
-
-### Installation
-
-<p align="center">
-  <img src="https://github.com/mauckc/headpose/blob/master/media/obama-sample.gif"/>
-</p>
 
 ### License
 
