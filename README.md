@@ -1,5 +1,11 @@
 # Quantum-Free-Particle
 
+## Usage
+
+```shell
+g++ freeparticle.cpp -o 1Dparticle -lfftw3 -lm
+```
+
 ## About 1D Quantum Free Particle
 
 ---
